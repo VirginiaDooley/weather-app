@@ -14,6 +14,7 @@
 		C4499F8222149FBB00B95684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4499F8022149FBB00B95684 /* LaunchScreen.storyboard */; };
 		C4499F8D22149FBB00B95684 /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4499F8C22149FBB00B95684 /* WeatherAppTests.swift */; };
 		C4499F9822149FBB00B95684 /* WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4499F9722149FBB00B95684 /* WeatherAppUITests.swift */; };
+		C4BAD193221DD84300938998 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BAD192221DD84300938998 /* TwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C4499F9322149FBB00B95684 /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4499F9722149FBB00B95684 /* WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITests.swift; sourceTree = "<group>"; };
 		C4499F9922149FBB00B95684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4BAD192221DD84300938998 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C4499F7E22149FBB00B95684 /* Assets.xcassets */,
 				C4499F8022149FBB00B95684 /* LaunchScreen.storyboard */,
 				C4499F8322149FBB00B95684 /* Info.plist */,
+				C4BAD192221DD84300938998 /* TwoViewController.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				C4499F7A22149FB400B95684 /* ViewController.swift in Sources */,
 				C4499F7822149FB300B95684 /* AppDelegate.swift in Sources */,
+				C4BAD193221DD84300938998 /* TwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Virginia-Dooley.WeatherApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Virginia-Dooley.WeatherApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
